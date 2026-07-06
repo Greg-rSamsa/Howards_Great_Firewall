@@ -1,3 +1,4 @@
 ﻿l_english:
   humanoid_ban: "§RThe Gods declare $HUM$ species banned."
   origin_ban: "§RThe Gods declare this origin banned."
+  civic_ban: "§RThe Gods declare this civic banned."
