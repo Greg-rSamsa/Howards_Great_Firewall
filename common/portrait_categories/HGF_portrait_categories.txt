@@ -1,0 +1,10 @@
+humanoids = {
+	name = HUM
+
+	sets = {
+		humanoids
+		cybernetic_humanoids
+		synthetic_humanoids
+		psionic_humanoids
+	}
+}
