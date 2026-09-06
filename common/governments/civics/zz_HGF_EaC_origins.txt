@@ -1,0 +1,165 @@
+origin_primitive_player_pre_industrial_age = {
+    is_origin = yes
+    icon = "gfx/interface/icons/origins/origins_life_seeded.dds"
+    picture = GFX_origin_broken_shackles
+    max_once_global = no
+
+    # initializers = { custom_starting_init_01 custom_starting_init_02 custom_starting_init_03 custom_starting_init_04 custom_starting_init_05 custom_starting_init_06 }
+    preferred_planet_class_neighbor = no
+
+    playable = { always = no }
+
+    possible = {
+        always = no
+        text = origin_ban
+    }
+
+    description = "origin_primitive_player_effect"
+    negative_description = "origin_primitive_player_pre_industrial_age_negative_effects"
+    #flags = { custom_start_screen PrimPlayer_start_flag }
+
+    modifier = {
+        # all_technology_research_speed = -0.75
+    }
+
+    blocks_random_machine_empire_generation	= yes
+
+    random_weight = {
+        base = 0
+    }
+}
+
+origin_primitive_player_industrial_age = {
+    is_origin = yes
+    icon = "gfx/interface/icons/origins/origins_syncretic_evolution.dds"
+    picture = GFX_origin_syncretic_evolution
+    max_once_global = no
+
+    # initializers = { custom_starting_init_01 custom_starting_init_02 custom_starting_init_03 custom_starting_init_04 custom_starting_init_05 custom_starting_init_06 }
+    preferred_planet_class_neighbor = no
+
+    playable = { always = no }
+
+    possible = {
+        always = no
+        text = origin_ban
+    }
+
+    description = "origin_primitive_player_effect"
+    negative_description = "origin_primitive_player_industrial_age_negative_effects"
+    flags = { custom_start_screen PrimPlayer_start_flag }
+
+    modifier = {
+        # all_technology_research_speed = -0.75
+    }
+
+    blocks_random_machine_empire_generation	= yes
+
+    random_weight = {
+        base = 0
+    }
+}
+
+origin_primitive_player_machine_age = {
+    is_origin = yes
+    icon = "gfx/interface/icons/origins/origins_under_one_rule.dds"
+    picture = GFX_origin_legendary_leader
+    max_once_global = no
+
+    # initializers = { custom_starting_init_01 custom_starting_init_02 custom_starting_init_03 custom_starting_init_04 custom_starting_init_05 custom_starting_init_06 }
+    preferred_planet_class_neighbor = no
+
+    playable = { always = no }
+
+    possible = {
+        always = no
+        text = origin_ban
+    }
+
+    description = "origin_primitive_player_effect"
+    negative_description = "origin_primitive_player_machine_age_negative_effects"
+    flags = { custom_start_screen PrimPlayer_start_flag }
+
+    modifier = {
+        # all_technology_research_speed = -0.75
+    }
+
+    blocks_random_machine_empire_generation	= yes
+
+    random_weight = {
+        base = 0
+    }
+}
+
+origin_primitive_player_atomic_age = {
+    is_origin = yes
+    icon = "gfx/interface/icons/origins/origins_post_apocalyptic.dds"
+    picture = GFX_origin_post_apocalyptic
+    max_once_global = no
+
+    # initializers = { custom_starting_init_01 custom_starting_init_02 custom_starting_init_03 custom_starting_init_04 custom_starting_init_05 custom_starting_init_06 }
+    preferred_planet_class_neighbor = no
+
+    playable = { always = no }
+
+    possible = {
+        always = no
+        text = origin_ban
+    }
+
+    description = "origin_primitive_player_effect"
+    negative_description = "origin_primitive_player_atomic_age_negative_effects"
+    flags = { custom_start_screen PrimPlayer_start_flag }
+
+    modifier = {
+        # all_technology_research_speed = -0.75
+    }
+
+    blocks_random_machine_empire_generation	= yes
+
+    random_weight = {
+        base = 0
+    }
+}
+
+origin_primitive_player_early_space_age = {
+    is_origin = yes
+    #icon = "gfx/interface/icons/origins/origins_lost_colony.dds"
+    icon = "gfx/interface/icons/origins/origin_default_pre_ftl.dds"
+    picture = GFX_origin_lost_colony
+    max_once_global = no
+
+    # initializers = { custom_starting_init_01 custom_starting_init_02 custom_starting_init_03 custom_starting_init_04 custom_starting_init_05 custom_starting_init_06 }
+    preferred_planet_class_neighbor = no
+
+    #playable = { always = no }	#This is playable
+
+    possible = {
+        always = no
+        text = origin_ban
+    }
+
+    description = "origin_primitive_player_effect"
+    negative_description = "origin_primitive_player_early_space_age_negative_effects"
+    flags = { custom_start_screen PrimPlayer_start_flag }
+
+    modifier = {
+        # all_technology_research_speed = -0.75
+        country_government_civic_points_add = 1
+    }
+
+    blocks_random_machine_empire_generation	= no
+
+    swap_type = {
+        description = "origin_primitive_player_effect_nomad"
+        negative_description = "origin_primitive_player_early_space_age_negative_effects_nomad"
+
+        trigger = {
+            is_nomadic = yes
+        }
+    }
+
+    random_weight = {
+        base = 0
+    }
+}
