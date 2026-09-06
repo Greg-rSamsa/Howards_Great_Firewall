@@ -18,8 +18,6 @@
 energy = {
     tradable = no
     category = basic
-    market_amount = 100
-    market_price = 100
     max = 25000
 
     deficit_situation = situation_energy_deficit
@@ -39,8 +37,6 @@ energy = {
 minerals = {
     tradable = no
     category = basic
-    market_amount = 100
-    market_price = 100
     max = 15000
 
     deficit_situation = situation_mineral_deficit
@@ -60,8 +56,6 @@ minerals = {
 food = {
     tradable = no
     category = basic
-    market_amount = 100
-    market_price = 100
     max = 15000
     dynamic_capacity = {
         base = 0
@@ -169,8 +163,6 @@ trade = {
 consumer_goods = {
     tradable = no
     category = advanced
-    market_amount = 50
-    market_price = 100
     max = 15000
 
     deficit_situation = situation_consumer_goods_deficit
@@ -214,8 +206,6 @@ consumer_goods = {
 alloys = {
     tradable = no
     category = advanced
-    market_amount = 25
-    market_price = 100
     max = 15000
     dynamic_capacity = {
         base = 0
@@ -246,8 +236,6 @@ alloys = {
 volatile_motes = {
     tradable = no
     category = strategic
-    market_amount = 10
-    market_price = 100
     max = 15000
 
     prerequisites = {
@@ -274,8 +262,6 @@ volatile_motes = {
 exotic_gases = {
     tradable = no
     category = strategic
-    market_amount = 10
-    market_price = 100
     max = 15000
 
     prerequisites = {
@@ -302,8 +288,6 @@ exotic_gases = {
 rare_crystals = {
     tradable = no
     category = strategic
-    market_amount = 10
-    market_price = 100
     max = 15000
 
     prerequisites = {
@@ -336,8 +320,6 @@ rare_crystals = {
 sr_living_metal = {
     tradable = no
     category = rare
-    market_amount = 5
-    market_price = 100
     max = 15000
 
     prerequisites = { "tech_mine_living_metal" }
@@ -360,8 +342,6 @@ sr_living_metal = {
 sr_zro = {
     tradable = no
     category = rare
-    market_amount = 5
-    market_price = 100
     max = 15000
 
     prerequisites = { "tech_mine_zro" }
@@ -384,8 +364,6 @@ sr_zro = {
 sr_dark_matter = {
     tradable = no
     category = rare
-    market_amount = 5
-    market_price = 100
     max = 15000
 
     prerequisites = { "tech_mine_dark_matter" }
